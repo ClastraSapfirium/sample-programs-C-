@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\C# Обучение\\HW_Tasks\\HW_Tasks.csproj",
-      "projectName": "HW_Tasks",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\C# Обучение\\HW_Tasks\\HW_Tasks.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\C# Обучение\\HW_Tasks\\Задача (1)\\Задача (1).csproj",
+      "projectName": "Задача (1)",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\C# Обучение\\HW_Tasks\\Задача (1)\\Задача (1).csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\C# Обучение\\HW_Tasks\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\C# Обучение\\HW_Tasks\\Задача (1)\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
