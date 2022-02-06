@@ -6,4 +6,5 @@ double b = Convert.ToDouble(Console.ReadLine());
 Console.Write("Количество точек n = ");
 int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine();
+
 //Есть нюансы (программа не работает)
