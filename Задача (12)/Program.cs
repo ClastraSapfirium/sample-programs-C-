@@ -2,6 +2,7 @@
 double a=0;
 string b;
 bool c = true;
+
 Console.Clear();
 
 Console.Write("Введите число: ");
