@@ -21,7 +21,6 @@ for (int i = 0; i < ASD.Length; i++)
 {
     System.Console.Write($"{ASD[i]} ");
 } 
-
 double max = ASD[0];
 double min = ASD[0];
 for (int i = 0; i < ASD.Length; i++)
