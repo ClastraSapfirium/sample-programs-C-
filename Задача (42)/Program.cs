@@ -1,5 +1,4 @@
-﻿// В Указанном массиве вещественных чисел найдите разницу между максимальным и минимальным элементом
-
+﻿// Определить сколько чисел больше 0 введено с клавиатуры
 double a = 0;
 string s;
 Console.Clear();
@@ -7,7 +6,7 @@ System.Console.WriteLine("Введите числовые значения в м
 System.Console.WriteLine("Для завершения ввода числел введите 0.");
 s = Console.ReadLine();
 a = Convert.ToDouble(s);
-List<double> QWE = new List<double> {}; //Составляем список введённых чисел!
+List<double> QWE = new List<double> {};
 while (a != 0)
 {
     QWE.Add(a);
@@ -15,18 +14,18 @@ while (a != 0)
     s = Console.ReadLine();
     a = Convert.ToDouble(s);
 }
-double [] ASD = QWE.ToArray<double>(); //Конвертируем составленый выше список и переносим его в массив 
+double [] ASD = QWE.ToArray<double>();
+Console.Clear();
 System.Console.WriteLine("Введенный вами массив имеет следующий вид: ");
 for (int i = 0; i < ASD.Length; i++)
 {
     System.Console.Write($"{ASD[i]} ");
 } 
-double max = ASD[0];
-double min = ASD[0];
+int sum = 0;
 for (int i = 0; i < ASD.Length; i++)
 {
-    if(ASD[i] > max) max = ASD[i];
-    if(ASD[i] < min) min = ASD[i];
+    if(ASD[i] > 0) sum++;
 }
 System.Console.WriteLine();
-System.Console.WriteLine($"Разница между максимальным и минимальным элементами составляет: {max - min}");
+if (sum>0) System.Console.WriteLine($"Количество чисел которые больше 0 составляет {sum}");
+if (sum==0) System.Console.WriteLine("Чисел больше 0 не обнаружено");
